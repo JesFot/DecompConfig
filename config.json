@@ -1,8 +1,9 @@
 {
+	"configVersion": 1,
     "minecraft": {
         "manifest_url": "https://launchermeta.mojang.com/mc/game/version_manifest.json",
         "reconstruct_dep": "io.github.lxgaming:reconstruct-common:1.3.9",
-        "fern_options": "-dgs=1 -hdc=0 -asc=1 -udv=0 -rsy=1 -aoa=1",
+        "fern_options": ["-dgs=1", "-hdc=0", "-asc=1", "-udv=0", "-rsy=1", "-aoa=1"],
         "keywords": {
             "snapshot": ["snapshot", "latest-snapshot"],
             "release": ["release", "latest", "latest-release", "default"],
